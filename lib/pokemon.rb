@@ -4,7 +4,7 @@ class Pokemon
   end
   
   def self.save(name, type, db)
-    command = ""
+    command = "INSERT "
     db.execute()
   end
 end
