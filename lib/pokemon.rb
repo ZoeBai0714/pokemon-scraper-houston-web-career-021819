@@ -9,6 +9,6 @@ class Pokemon
   end
   
   def self.find
-    
+    command = "SELECT * FROM pokemon"
   end
 end
