@@ -13,6 +13,6 @@ class Pokemon
     command = "SELECT * FROM pokemon WHERE id = #{id}"
     object = db.execute(command)
     binding.pry
-   
+    pokemon = Pokemon.new()
   end
 end
