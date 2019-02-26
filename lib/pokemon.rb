@@ -7,4 +7,7 @@ class Pokemon
     command = "INSERT INTO pokemon (name, type) VALUES ('#{name}', '#{type}')"
     db.execute(command)
   end
+  
+  def self.find
+  end
 end
