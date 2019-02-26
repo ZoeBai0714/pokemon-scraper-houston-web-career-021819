@@ -10,7 +10,7 @@ class Pokemon
     db.execute(command)
   end
   
-  def self.find(id, db,hp)
+  def self.find(id, db, hp)
     command = "SELECT * FROM pokemon WHERE id = #{id}"
     object = db.execute(command)
     #binding.pry
