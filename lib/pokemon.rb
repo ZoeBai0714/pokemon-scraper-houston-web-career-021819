@@ -1,6 +1,6 @@
 class Pokemon
   attr_accessor :id, :name, :type, :db, :hp
-  def initialize(id)
+  def initialize(id, hp)
     @id = id
     @hp = hp
   end
