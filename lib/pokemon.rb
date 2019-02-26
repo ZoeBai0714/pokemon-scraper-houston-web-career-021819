@@ -1,8 +1,8 @@
 class Pokemon
   attr_accessor :id, :name, :type, :db, :hp
-  def initialize(id)
+  def initialize(id, hp = nil)
     @id = id
-    @hp = 60
+    @hp = hp
   end
   
   def self.save(name, type, db)
