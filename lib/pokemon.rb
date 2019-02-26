@@ -20,5 +20,6 @@ class Pokemon
   end
   
   def alter_hp(new_hp, db)
+    command = "UPDATE "
   end
 end
