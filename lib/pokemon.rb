@@ -16,5 +16,6 @@ class Pokemon
     pokemon = Pokemon.new(id)
     pokemon.name = object[0][1]
     pokemon.type = object[0][2]
+    pokemon
   end
 end
