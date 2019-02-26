@@ -12,7 +12,7 @@ class Pokemon
   
   def self.find(id, db)
     command = "SELECT * FROM pokemon WHERE id = #{id}"
-    object = db.execute(command)  #object => [["1", "Picachu", "electric"]]
+    object = db.execute(command)  #object => [["1", "Pikachu", "electric"]]
     #binding.pry
     pokemon = Pokemon.new(id)
     pokemon.name = object[0][1]
