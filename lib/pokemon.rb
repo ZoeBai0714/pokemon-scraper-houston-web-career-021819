@@ -9,6 +9,6 @@ class Pokemon
   end
   
   def self.find
-    command = "SELECT * FROM pokemon"
+    command = "SELECT * FROM pokemon WHERE id = #{id}"
   end
 end
