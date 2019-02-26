@@ -12,8 +12,7 @@ class Pokemon
   def self.find(id, db)
     command = "SELECT * FROM pokemon WHERE id = #{id}"
     object = db.execute(command)
-    db.results_as_hash = true
-    binding.pry
+    #binding.pry
     pokemon = Pokemon.new(id)
     pokemon.name = object[0][1]
     pokemon.type = object[0][2]
