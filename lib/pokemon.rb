@@ -14,5 +14,7 @@ class Pokemon
     object = db.execute(command)
     #binding.pry
     pokemon = Pokemon.new(id)
+    pokemon.name = object[0][1]
+    pokemon.type = object[0][2]
   end
 end
