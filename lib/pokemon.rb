@@ -8,7 +8,7 @@ class Pokemon
     db.execute(command)
   end
   
-  def self.find
+  def self.find(id, db)
     command = "SELECT * FROM pokemon WHERE id = #{id}"
     db.execute(command)
   end
