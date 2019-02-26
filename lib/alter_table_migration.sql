@@ -1,1 +1,1 @@
-UPDATE 
+UPDATE pokemon
