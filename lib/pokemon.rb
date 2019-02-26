@@ -18,4 +18,7 @@ class Pokemon
     pokemon.type = object[0][2]
     pokemon
   end
+  
+  def alter_hp
+  end
 end
